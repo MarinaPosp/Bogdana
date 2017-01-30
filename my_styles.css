@@ -1,0 +1,67 @@
+body {
+	background-color: #ebebe0;
+	color: black;
+	font-size: 2rem;
+	font-family: 'Droid Serif', serif;
+}
+h2 {
+	margin-top: 0;
+	padding: 0;
+}
+section {
+	margin: 40px 5px 20px 0;
+}
+
+.jumbotron, footer {
+	color: black;
+	background-color: #cc6600;
+}
+.jumbotron h1 {
+	font-weight: bolder;
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.nav-pills>li>a {
+	font-weight: bolder;
+	color:  #cc6600;
+	transition-duration: 0.6s;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #cc6600;
+
+}
+.nav-pills>li>a:hover {
+	background-color:  #d7d7c1;
+	color: black;
+	transition: width 2s;
+}
+
+.cash {
+	font-size: 8rem;
+	color: #cc6600;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.cash>.glyphicon {
+	top: 12px;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 20px;
+	height: 200px;
+}
+
+footer .glyphicon {
+	margin-right: 15px;
+}
